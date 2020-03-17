@@ -1,6 +1,8 @@
-# Aplicação Minhas Anotações - 1ª Avaliação Prática Web 4
+# Aplicação Conversor Binário - 1ª Avaliação Prática Web 4
 
-**Tema:** Aplicação aonde pode cadastrar, listar, editar e excluir anotações no qual estára vinculado ao um usuario que por sua vez poderá se cadastrar no inicio do aplicativo. 
+**Tema:** Aplicação aonde pode converter numeros decimais em binário e vice-versa. Por exemplo dado um  número natural na base binária ele será transformádo na base decimal.
+
+O admin poderia ter acesso aos relatórios de uso da ferramenta.
 
 ## Wireframes:  
 
