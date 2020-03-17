@@ -1,4 +1,4 @@
-# Aplicação Conversor Binário - 1ª Avaliação Prática Web 4
+# Conversor Binário - 1ª Avaliação Prática Web 4
 
 **Tema:** Aplicação aonde pode converter numeros decimais em binário e vice-versa. Por exemplo dado um  número natural na base binária ele será transformádo na base decimal.
 
