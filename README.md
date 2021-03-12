@@ -7,7 +7,7 @@ O admin poderia ter acesso aos relatórios de uso da ferramenta.
 ## Wireframes:  
 
 - [x] Quant-UX - https://www.quant-ux.com/#/test.html?h=a2aa10ajoM1vWiBmO0VNLO8zZcede0bGzrZLaRYyNgQTzaad97UsqnHy3GLe
-- [ ] Draw.io
+- [x] Draw.io
 
 ## Encaminhamento e redirecionamento
 
