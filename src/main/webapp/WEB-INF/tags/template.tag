@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css"/>
     <link href="assets/libraries/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/resources/styles/style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/resources/images/favicon.ico" />
     <link href="assets/resources/styles/error.css" rel="stylesheet">
 </head>
 

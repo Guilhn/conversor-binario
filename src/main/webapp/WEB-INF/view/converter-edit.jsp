@@ -9,16 +9,10 @@
         <p class="location p-2"> <small>${cityName}</small></p>
         <main class="container">
             <div class="row">
-
                 <div class="col-lg-12 area-conversor mb-5">
                     <h2 class="text-center">EDITAR CONVERSÃO</h2>
                 </div>
-
-
-
                 <div class="col-lg-4 offset-lg-4">
-
-
                         <div class="input-group mb-3">
                             <span class="label-editar input-group-text" id="basic-addon2">Identificador</span>
                             <input disabled type="text" class="label-input-editar form-control" value="${converter.id}"  aria-describedby="basic-addon3">
@@ -52,13 +46,9 @@
                                 </div>
                             </div>
                         </form>
-
                 </div>
-
-
             </div>
         </main>
-
 
     </jsp:body>
 </t:template>

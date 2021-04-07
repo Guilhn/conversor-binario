@@ -23,5 +23,3 @@
 
     </jsp:body>
 </t:template>
-
-What activity should you join?

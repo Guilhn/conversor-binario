@@ -29,17 +29,13 @@ public class ConverterDecimalController extends HttpServlet {
         String city = request.getParameter("city");
         String type_conversion = "";
 
-        //cookie global
         String cityName = (String) request.getServletContext().getAttribute(Constants.CITY_NAME);
         cityName = city;
 
-
-        //cookie por sessão
         Integer counterConverterDec = (Integer) request.getSession(true).getAttribute(Constants.COUNTER_CONVERTER_DEC);
         if(counterConverterDec == null){
             counterConverterDec = 0;
         }
-
 
         request.setAttribute("flash.city", city);
 
@@ -53,10 +49,6 @@ public class ConverterDecimalController extends HttpServlet {
             counterConverterDec++;
         }
 
-
-
-
-
         request.getSession(true).setAttribute(Constants.COUNTER_CONVERTER_DEC, counterConverterDec);
         Cookie cookie = new Cookie("counterDec", String.valueOf(counterConverterDec));
         Cookie url = new Cookie("url", String.valueOf("https://www.youtube.com/watch?v=kNH_EjHvm3I&ab_channel=HermTrololol"));
@@ -68,8 +60,6 @@ public class ConverterDecimalController extends HttpServlet {
         response.addCookie(url);
         request.getRequestDispatcher("/binario").forward(request, response);
     }
-
-
 }
 
 

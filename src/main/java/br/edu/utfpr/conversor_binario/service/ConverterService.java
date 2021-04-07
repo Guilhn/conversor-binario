@@ -10,7 +10,6 @@ public class ConverterService extends AbstractService<Long, Converter>{
         dao = new ConverterDAO();
     }
 
-
     public String converterDecToBin(int decimal){
 
         String bin = "";
@@ -34,7 +33,6 @@ public class ConverterService extends AbstractService<Long, Converter>{
             decimal += Math.pow(2, potencia) * Character.getNumericValue(bin.charAt(i));
             potencia++;
         }
-
         return Integer.toString(decimal);
 
     }

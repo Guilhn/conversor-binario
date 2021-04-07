@@ -58,7 +58,6 @@ public class ConverterBinaryController extends HttpServlet {
         Cookie cookie = new Cookie("counterBin", String.valueOf(counterConverterBin));
         response.addCookie(cookie);
 
-
         request.getRequestDispatcher("/cidade").forward(request, response);
     }
 

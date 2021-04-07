@@ -10,7 +10,7 @@
 
     <error-page>
         <exception-type>java.lang.RuntimeException</exception-type>
-        <location>/WEB-INF/view/error/400.jsp</location>
+        <location>/WEB-INF/view/error/exception-error.jsp</location>
     </error-page>
 
 

@@ -28,27 +28,26 @@ public class ConverterResultController extends HttpServlet {
           Long delete = Long.parseLong(request.getParameter("id"));
           converterService.deleteById(delete);
           response.sendRedirect("/conversor-binario/listar");
+
         }else if(request.getServletPath().contains(Routes.UPDATE)){
             Long update = Long.parseLong(request.getParameter("id"));
             JPAUtil.closeEntityManager();
-            Converter converter = converterService.getById(update);
 
+            Converter converter = converterService.getById(update);
             List<City> cities = CityService.findAll();
 
             request.setAttribute("converter", converter);
             request.setAttribute("cities", cities);
             request.getRequestDispatcher("/WEB-INF/view/converter-edit.jsp").forward(request, response);
+
         }else if (request.getServletPath().contains(Routes.READ)){
             JPAUtil.closeEntityManager();
             List<Converter> converter = converterDAO.findAll();
 
             request.setAttribute("converter", converter);
-
             PrintWriter out = response.getWriter();
             request.getRequestDispatcher("/WEB-INF/view/report.jsp").forward(request, response);
         }
-
-
     }
 
     @Override
@@ -62,7 +61,6 @@ public class ConverterResultController extends HttpServlet {
             City city = CityService.getById(city_id);
             converter.setCity(city);
             converterService.update(converter);
-
             response.sendRedirect("listar");
 
 
@@ -73,7 +71,6 @@ public class ConverterResultController extends HttpServlet {
                 String decimal = (String) request.getAttribute("flash.dec");
                 String binario = (String) request.getAttribute("flash.bin");
                 String type_conversion = (String) request.getAttribute("flash.type_conversion");
-
 
                 request.setAttribute("flash.city", city);
                 request.setAttribute("flash.dec", decimal);
