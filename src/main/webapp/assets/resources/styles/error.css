@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300,500");
+
+
+body {
+    /*font-family: "Roboto Mono", "Liberation Mono", Consolas, monospace;*/
+
+}
+
+.number, .text{
+    color: #f7aa51;
+    font-family: "Roboto Mono", "Liberation Mono", Consolas, monospace;
+    color: #f7aa51;
+}
+
+
+#countUp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#countUp .number {
+    font-size: 4rem;
+    font-weight: 500;
+}
+#countUp .number + .text {
+    margin: 0 0 1rem;
+}
+#countUp .text {
+    font-weight: 300;
+    text-align: center;
+}

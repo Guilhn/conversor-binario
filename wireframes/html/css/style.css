@@ -1,0 +1,111 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background-color: #333333;
+  padding-top: 5rem;
+}
+
+.btn-card-login a, .btn-card-cadastro a{
+  width: 80%;
+  border: none;
+  background-color: #0abbe8;
+}
+
+.cor-tema-texto{
+  color: #0abbe8;
+}
+
+.button-reverter-conversor{
+  border: none;
+  background-color: #f7aa51;
+  color: white;
+  font-weight: bold;
+}
+
+
+.form-card-login,  .form-card-cadastro, .form-conversor{
+  border: 2px solid #0abbe8;
+}
+
+.form-card-login:focus, .form-card-cadastro:focus, .form-conversor:focus, .button-reverter-conversor:focus {
+  box-shadow:none;
+  
+}
+
+.btn-registrar a{
+  font-weight: bold;
+  color: #f7aa51;
+  text-decoration: none;
+}
+
+.alerta-msg{
+  margin-top: 50px;
+}
+
+.nav-link{
+  border-bottom: 2px solid rgba(255,255,255,.0);
+}
+
+.nav-link:hover{
+  border-bottom: 2px solid #f7aa51;
+}
+
+/* .active{
+  border-bottom: 2px solid #f7aa51;
+} */
+
+.navbar{
+  background-color: #202020;
+}
+
+/* .card-login,  */
+.card-cadastro, .area-conversor{
+  padding-top: 100px;
+  margin-bottom: 200px;
+
+}
+
+.table-historico{
+  margin-bottom: 150px;
+}
+
+.tabela-header{
+  background-color: #f6a13e !important;
+  color: black;
+}
+.tabela-line{
+  border: 1px solid #f6a13e;
+}
+tr.tabela-line:nth-child(even) {
+  background-color: #fbe9d5;
+}
+
+
+
+.form-login{
+  width: 80%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  
+}
+
+.footer-main{
+  background-color: #202020;
+}
+
+.footer-area p{
+  text-align: center;
+  color: white;
+  height: 15px;
+  padding-bottom: 10px;
+}
+
